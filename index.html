@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie Landing Page</title>
+    <!-- Remova o link para o arquivo de estilos CSS daqui -->
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header style="background-color: pink;">
+        <h1>Barbie Landing Page</h1>
+    </header>
+
+    <!-- Carrossel de Imagens -->
+    <div class="carousel">
+        <img src="public/images/barbie1.jpg" alt="Barbie 1">
+        <img src="public/images/barbie2.jpg" alt="Barbie 2">
+        <img src="public/images/barbie3.jpg" alt="Barbie 3">
+    </div>
+    <!-- Onde Assistir -->
+    <section id="onde-assistir">
+        <h2>Onde Assistir</h2>
+        <form>
+            <label for="local">Local:</label>
+            <input type="text" id="local" name="local">
+            <label for="horario">Horário:</label>
+            <input type="text" id="horario" name="horario">
+            <button type="submit">Enviar</button>
+    <!-- Capa do Filme e Sinopse -->
+    <div class="movie-cover">
+        <img src="public/images/barbie-movie-cover.jpg" alt="Capa do Filme Barbie">
+        <p>Sinopse do filme Barbie...</p>
+    </div>
+
+    <!-- Galeria -->
+    <div class="gallery">
+        <img src="public/images/gallery1.jpg" alt="Imagem 1">
+        <img src="public/images/gallery2.jpg" alt="Imagem 2">
+        <img src="public/images/gallery3.jpg" alt="Imagem 3">
+        <img src="public/images/gallery4.jpg" alt="Imagem 4">
+    </div>
+
+
+        </form>
+    </section>
+    <script src="components/carousel.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/gallery.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/synopsis.js"></script>
+    <script src="components/watch.js"></script>
+
+    <!-- Rodapé -->
+    <footer style="background-color: pink; position: fixed; bottom: 0; width: 100%;">
+        <p>&copy; 2024 Barbie Landing Page</p>
+    </footer>
+</body>
+</html>

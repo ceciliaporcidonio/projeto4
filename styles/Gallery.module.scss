@@ -1,0 +1,15 @@
+/* styles/Gallery.module.scss */
+.gallery {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images img {
+  margin: 1rem;
+}

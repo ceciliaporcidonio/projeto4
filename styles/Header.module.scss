@@ -1,0 +1,22 @@
+/* styles/Header.module.scss */
+.header {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}

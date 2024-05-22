@@ -1,0 +1,14 @@
+/* styles/Synopsis.module.scss */
+.synopsis {
+  background-color: #f0e6f6; /* exemplo de cor de fundo */
+  color: #fd5693; /* exemplo de cor de texto */
+  padding: 2rem;
+  text-align: left;
+}
+
+.synopsis img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
